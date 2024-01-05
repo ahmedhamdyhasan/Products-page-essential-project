@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(225, 223, 223);
+  font-family: 'Wix Madefor Text', sans-serif;
+  margin: 1rem;
+
+  
+}
+.project-title {
+  margin: 0.5rem;
+}
+
+.under-line {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  width: 10rem;
+  height: 0.3rem;
+  background-color: rgb(146, 15, 155);
+}

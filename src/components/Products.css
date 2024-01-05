@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+
+}
+
+.products-container {
+   
+    margin: 1rem auto;
+    display:grid;
+     grid-template-columns: repeat(4,1fr);
+
+    
+}
+
+.btns-container {
+    margin: 2rem ;
+    padding-right: 5rem;
+    border-right: 5px solid rgb(146, 15, 155);
+}
+
+.btn {
+    display: block;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color:rgb(146, 15, 155);
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    box-shadow: 1px 1px 1px 2px rgb(210, 205, 205);
+
+   
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:rgb(205, 40, 217);
+}
+
+.btn-delete {
+    margin-top: 8rem;
+    background-color: rgb(200, 7, 7);
+}
+
+.btn-delete:hover{
+    background-color: rgb(237, 0, 0)
+}

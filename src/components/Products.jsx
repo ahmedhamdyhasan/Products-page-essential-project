@@ -7,7 +7,7 @@ const Products = () => {
   const allProducts = [
     {
       id: 1,
-      img: "public/phones/A76.png",
+      img: "../dist/phones/A76.png",
       title: "Samsung A76",
       price: "200$",
       category: "Phones",
